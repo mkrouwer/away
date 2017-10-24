@@ -22,7 +22,7 @@ var (
 
 	campusList = graphql.EnumValueConfigMap{
 		"NEW_YORK_CITY": &graphql.EnumValueConfig{Value: "NEW_YORK_CITY"},
-		"CORK": &graphql.EnumValueConfig{Value: "CORK"},
+		"BOSTON": &graphql.EnumValueConfig{Value: "BOSTON"},
 	}
 	campusEnum = graphql.NewEnum(graphql.EnumConfig{
 		Name:   "Campuses",
@@ -35,7 +35,7 @@ const (
 	ID  = 1
 	NAME = "Margot Krouwer"
 	ROLE = "Senior Software Engineer"
-	HOME_CAMPUS = "CORK"
+	HOME_CAMPUS = "BOSTON"
 	CURRENT_CAMPUS = "NEW_YORK_CITY"
 )
 
